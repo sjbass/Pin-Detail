@@ -14,6 +14,9 @@
 		14361F8F1F68E8C000634B77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14361F8D1F68E8C000634B77 /* LaunchScreen.storyboard */; };
 		14361F971F68E8F400634B77 /* ViewPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14361F961F68E8F400634B77 /* ViewPoint.swift */; };
 		14361F9A1F68E9E600634B77 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14361F991F68E9E600634B77 /* MapKit.framework */; };
+		14361F9C1F68F78F00634B77 /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14361F9B1F68F78F00634B77 /* DetailController.swift */; };
+		14361F9E1F68FA3200634B77 /* busansimin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 14361F9D1F68FA3200634B77 /* busansimin.jpeg */; };
+		14361FA01F68FA6800634B77 /* dong.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 14361F9F1F68FA6800634B77 /* dong.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		14361F901F68E8C000634B77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		14361F961F68E8F400634B77 /* ViewPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewPoint.swift; sourceTree = "<group>"; };
 		14361F991F68E9E600634B77 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		14361F9B1F68F78F00634B77 /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		14361F9D1F68FA3200634B77 /* busansimin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = busansimin.jpeg; path = ../../../../Downloads/busansimin.jpeg; sourceTree = "<group>"; };
+		14361F9F1F68FA6800634B77 /* dong.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = dong.JPG; path = ../../../../Downloads/dong.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,9 +70,12 @@
 				14361F861F68E8C000634B77 /* ViewController.swift */,
 				14361F961F68E8F400634B77 /* ViewPoint.swift */,
 				14361F881F68E8C000634B77 /* Main.storyboard */,
+				14361F9B1F68F78F00634B77 /* DetailController.swift */,
 				14361F8B1F68E8C000634B77 /* Assets.xcassets */,
 				14361F8D1F68E8C000634B77 /* LaunchScreen.storyboard */,
+				14361F9F1F68FA6800634B77 /* dong.JPG */,
 				14361F901F68E8C000634B77 /* Info.plist */,
+				14361F9D1F68FA3200634B77 /* busansimin.jpeg */,
 			);
 			path = "03-mulitPin";
 			sourceTree = "<group>";
@@ -138,8 +147,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14361F9E1F68FA3200634B77 /* busansimin.jpeg in Resources */,
 				14361F8F1F68E8C000634B77 /* LaunchScreen.storyboard in Resources */,
 				14361F8C1F68E8C000634B77 /* Assets.xcassets in Resources */,
+				14361FA01F68FA6800634B77 /* dong.JPG in Resources */,
 				14361F8A1F68E8C000634B77 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14361F9C1F68F78F00634B77 /* DetailController.swift in Sources */,
 				14361F871F68E8C000634B77 /* ViewController.swift in Sources */,
 				14361F971F68E8F400634B77 /* ViewPoint.swift in Sources */,
 				14361F851F68E8C000634B77 /* AppDelegate.swift in Sources */,
@@ -315,6 +327,7 @@
 				14361F951F68E8C000634B77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

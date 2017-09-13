@@ -20,7 +20,6 @@ class ViewController: UIViewController,MKMapViewDelegate {
         let a = ViewPoint(coordinate: CLLocationCoordinate2D(latitude:35.168444,longitude:129.057832), title:"부산시민공원",subtitle:"시민들의 공원")
         let b = ViewPoint(coordinate: CLLocationCoordinate2D(latitude:35.166197,longitude:129.072594), title: "동의과학대학", subtitle: "동의인")
         myMap.addAnnotations([a,b])
-
         myMap.delegate = self
 
         
@@ -55,11 +54,15 @@ class ViewController: UIViewController,MKMapViewDelegate {
         
     }
     
-    
+
     
     func mapView(_ mapView: MKMapView, annotationView view: MKAnnotationView, calloutAccessoryControlTapped control: UIControl) {
         
-        let viewAnno = view.annotation
+        if control == view.rightCalloutAccessoryView {
+            self.performSegue(withIdentifier: "goDetail", sender: self)
+            
+        }
+     /*   let viewAnno = view.annotation
         let viewTitle: String = ((viewAnno?.title)!)!
         
         
@@ -70,8 +73,9 @@ class ViewController: UIViewController,MKMapViewDelegate {
         let ac = UIAlertController(title: viewTitle, message: viewSubTitle, preferredStyle: .alert)
         ac.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
         present(ac, animated: true, completion: nil)
-    }
+    
+ */}
+
 
 
 }
-
